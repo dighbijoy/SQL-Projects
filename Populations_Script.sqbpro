@@ -40,7 +40,7 @@ ORDER BY population DESC;
 
 -- Selecting countries which have Islands in their name
 
-SELECT country
+SELECT COUNT(*)
 
 FROM population_years
 
@@ -48,7 +48,7 @@ WHERE country LIKE '%Islands%';
 
 
 
--- The list starts with the Cayman Islands!
+-- The number of countries is 99; 
 
 -- Let us find the population of Indonesia in 2000
 
@@ -86,17 +86,7 @@ SELECT 242.96834 - 214.67661;
 
 
 
-SELECT COUNT(*)
-FROM population_years
-WHERE country LIKE '%Islands%'; 
 
-SELECT population AS 'Indonesia_in_2000'
-FROM population_years
-WHERE country = 'Indonesia' AND year = 2000; 
-
-SELECT population AS 'Indonesia_in_2010'
-FROM population_years
-WHERE country = 'Indonesia' AND year = 2010; 
 
 
 </sql><current_tab id="0"/></tab_sql></sqlb_project>
