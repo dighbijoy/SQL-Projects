@@ -1,3 +1,2 @@
 # SQL-Projects
-This is a repository of only SQL projects that I have completed 
-There will be different projects that I will have completed in SQL and which I will upload on this repository 
+This is the World Populations Project which was done by me in SQL. 
